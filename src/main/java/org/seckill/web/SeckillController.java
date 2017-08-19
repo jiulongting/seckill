@@ -76,7 +76,7 @@ public class SeckillController {
 			@PathVariable("md5") String md5, @CookieValue(value = "killPhone", required = false) Long phone) {
 		// springmvc valid
 		if (phone == null) {
-			return new SeckillResult<>(false, "未注册");
+			return new SeckillResult<>(false, "未注  册");
 		}
 		try {
 			// 存储过程调用
